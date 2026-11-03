@@ -1,0 +1,9 @@
+#qrc_toggle {
+    cursor: pointer;
+    opacity: 0.55;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    transition: color 0.15s, opacity 0.15s;
+}
+#qrc_toggle:hover { opacity: 1; }
+#qrc_toggle.qrc-on { color: #4fc3f7; opacity: 1; }
